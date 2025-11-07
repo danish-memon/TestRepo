@@ -1,0 +1,5 @@
+# SFDX specific
+.sfdx/
+.env
+node_modules/
+coverage/
