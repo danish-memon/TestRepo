@@ -5,7 +5,7 @@ public class MySecondApexClass {
     public static void sayHello() {
         System.debug('Hello from MySecondApexClass');
     }
-
+    //Additional comment
     // This method takes two integers as input parameters
     // and returns their sum.
     public static Integer addNumbers(Integer a, Integer b) {
