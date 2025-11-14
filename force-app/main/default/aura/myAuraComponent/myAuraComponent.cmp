@@ -1,15 +1,7 @@
-<!-- Aura Component Definition -->
 <aura:component>
-
-    <!-- Attribute Declaration  
-         - name: message  
-         - type: String  
-         - default value shown when component loads -->
     <aura:attribute 
         name="message" 
         type="String" 
         default="Hello from Aura!" 
     />
-
-    <!-- Displaying the attribute value in the UI using expression syntax -->
     <h1>{!v.message}</
